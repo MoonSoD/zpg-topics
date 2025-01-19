@@ -1,8 +1,3 @@
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
-
 # Transformácie
 
 ## Translácia
@@ -65,3 +60,30 @@ Ak skladáme transformácie, ktoré dopredu nepoznáme,
 $$
 X^n = \mathbf{A}_n \cdot (\ldots(\mathbf{A}_2 \cdot (\mathbf{A}_1 \cdot X + \vec{d}_1) + \vec{d}_2)\ldots) + \vec{d}_n
 $$
+
+## Afinné transformácie v priestore
+$$
+\begin{bmatrix} 
+x' \\ 
+y' \\ 
+z'
+\end{bmatrix} = 
+\begin{bmatrix} 
+a_{xx} & a_{xy} & a_{xz} \\ 
+a_{yx} & a_{yy} & a_{yz} \\ 
+a_{zx} & a_{zy} & a_{zz}
+\end{bmatrix}
+\begin{bmatrix}
+x \\ 
+y \\ 
+z
+\end{bmatrix} + 
+\begin{bmatrix}
+d_x \\ 
+d_y \\ 
+d_z
+\end{bmatrix}
+$$
+
+- $a$ - rotácia, škálovanie
+- $d_x, d_y, d_z$ - translácia

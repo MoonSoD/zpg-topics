@@ -1,9 +1,3 @@
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
-
-
 # Phongov osvetľovací model
 Empirický osvetľovací model. Počíta intenzitu svetla pre každý fragment.
 
