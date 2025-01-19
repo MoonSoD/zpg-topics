@@ -6,11 +6,11 @@ P(t) = \sum_{i=0}^{n} P_i B_i^n(t), \text{ kde } t \in (0,1)
 $$
 
 ## Bázové funkcie
+Bázové funkcie určujú vplyv/váhu príslušného kontrolného bodu na výslednú krivku. Vplyv sa mení v závislosti od $t$. Zabezpečujú plynulý prechod medzi bodmi.
+
 
 Pre výpočet bázových funkcií $B_i^n(t)$ používame:
-$$
-B_i^n(t) = \binom{n}{i} t^i (1-t)^{n-i}
-$$
+$$B_i^n(t) = \binom{n}{i} t^i (1-t)^{n-i}$$
 
 ### Kombinačné číslo
 $$
@@ -18,20 +18,14 @@ $$
 $$
 
 ### Bázové funkcie pre n=3
-$
-P(t) = \sum\limits_{i=0}^{3} P_iB_i^3(t), \text{ kde } t \in (0,1)
-$ 
+$P(t) = \sum\limits_{i=0}^{3} P_iB_i^3(t), \text{ kde } t \in (0,1)$ 
 
-$
-B_0^3(t) = (1-t)^3,\\
+$B_0^3(t) = (1-t)^3,\\
 B_1^3(t) = 3t(1-t)^2,\\
 B_2^3(t) = 3t^2(1-t),\\
-B_3^3(t) = t^3
-$
+B_3^3(t) = t^3$
 
-$
-P_3(t) = (1-t)^3P_0 + 3t(1-t)^2P_1 + 3t^2(1-t)P_2 + t^3P_3
-$
+$P_3(t) = (1-t)^3P_0 + 3t(1-t)^2P_1 + 3t^2(1-t)P_2 + t^3P_3$
 
 ![bernstein-3](assets/bernstein-3.png)
 
