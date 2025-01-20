@@ -58,6 +58,7 @@ Súradnice v clip space sú homogénne (x,y,z,w). Orežú sa do rozsahu scény:
 - $-w \leq z \leq w$
 
 Výstup sú NDC (Normalized Device Coordinates) v rozsahu -1 až 1:
+
 $$
 \begin{pmatrix}
 x_c/w_c \\
