@@ -27,7 +27,7 @@ Priame osvetlenie objektu, rozptýlený odraz. Je závislý na uhle svetla
 Lesklé odrazy na objekte. Závisí na uhle odrazu svetla  a smerom ku kamere.
 
 ### Exponent spekulárneho svetla
-Určuje veľkosť, rozptyl odlesku. ($cos(\phi) == (\vec{r} \cdot \vec{c})$)
+Určuje veľkosť, rozptyl odlesku. $cos(\phi) == (\vec{r} \cdot \vec{c})$
 ![shininess](assets/shininess.png)
 
 ## Ad. Útlm

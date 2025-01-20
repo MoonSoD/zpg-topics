@@ -64,7 +64,7 @@ x_c/w_c \\
 y_c/w_c \\
 z_c/w_c
 \end{pmatrix}
- = 
+\= 
 \begin{pmatrix}
 x_{ndc} \\
 y_{ndc} \\
