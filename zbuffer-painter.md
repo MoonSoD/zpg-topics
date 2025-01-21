@@ -31,7 +31,6 @@ for (const auto& fragment : fragments) {
 
 # Maliarov algoritmus
 Algoritmus radenia objektov. Vezme (min-max) interval súradníc, v ktorom sa objekt nachádza. Objekty zoradí podľa veľkosti max. Ak 2 objekty majú rovnaký maximálny interval, tak sa vezme interval min.
-- Vhodný pre flat GUI
 
 ## Výhody
 - Nepotrebuje buffer
